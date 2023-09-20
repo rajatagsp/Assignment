@@ -1,0 +1,91 @@
+/* App.css */
+
+.App {
+    font-family: 'Syne', sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+ 
+  
+  
+  .banner {
+    background-color: #007bff;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .product-list {
+    padding: 2rem;
+  }
+  
+  .contact-form {
+    padding: 2rem;
+  }
+
+  /* Styles for the top-level navigation menu */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
+  
+  /* Styles for the sub-menus */
+  .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1;
+  }
+  
+  .nav-item:hover .sub-menu {
+    display: block;
+  }
+  
+  .sub-item {
+    display: block;
+  }
+  
+  .sub-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sub-link:hover {
+    background-color: #555;
+  }
+  
+  
+  /* Add more styles as needed */
+  
